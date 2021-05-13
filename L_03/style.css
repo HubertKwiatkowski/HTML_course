@@ -175,11 +175,21 @@ a.tilelink
   color:#ffffff;
   text-decoration: none;
   display: block;
+  width: 230px;
+  height: 142px;
+}
+
+a.smediatilelink
+{
+  color:#ffffff;
+  text-decoration: none;
+  display: block;
+  width: 105px;
+  height: 142px;
 }
 
 a.tilelinkhtml5
 {
   color:#ffffff;
   text-decoration: none;
-  display: block;
 }
