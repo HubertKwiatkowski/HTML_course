@@ -50,6 +50,24 @@ a:actice
     2px -2px 0 #33402a;
 }
 
+#footer
+{
+    width: 100%;
+    height: 30px;
+    background-color: #485b3b;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px;
+    letter-spacing: 3px;
+    border-top: 2px solid #33402a;
+    text-shadow:
+    2px 2px 0 #33402a,
+    -2px 2px 0 #33402a,
+    -2px -2px 0 #33402a,
+    2px -2px 0 #33402a;
+}
+
 #container
 {
     margin-left: auto;
@@ -116,4 +134,16 @@ h1
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.scrollup
+{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("img/up.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
 }
