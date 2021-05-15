@@ -103,7 +103,6 @@ figcaption
 {
 	margin-top: 8px;
 	padding: 0;
-
 }
 
 .entries
@@ -147,7 +146,8 @@ figcaption
 .entrytxt
 {
 	display: inline-block;
-	width: 700px;
+	width: 750px;
+	font-size: 15px;
 }
 
 h2
@@ -155,4 +155,117 @@ h2
 	font-size: 20px;
 	font-weight: 400;
 	color: #39a5f1;
+}
+
+.contact
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 950px;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.contact p
+{
+	margin-bottom: 50px;
+}
+
+.bluebutton
+{
+	background-color: #1c74b2;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.bluebutton:hover
+{
+	background-color: #196499;
+}
+
+.yt
+{
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #191d21;
+  float: left;
+}
+
+.yt:hover
+{
+  background-color: #c83237;
+}
+
+.fb
+{
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #191d21;
+  float: left;
+}
+
+.fb:hover
+{
+  background-color: #3557a2;
+}
+
+.gplus
+{
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #191d21;
+  float: left;
+}
+
+.gplus:hover
+{
+  background-color: #c84222;
+}
+
+.tw
+{
+  margin: 10px;
+  width: 105px;
+  height: 142px;
+  background-color: #191d21;
+  float: left;
+}
+
+.tw:hover
+{
+  background-color: #2084c2;
+}
+
+a.smediatilelink
+{
+  color:#ffffff;
+  text-decoration: none;
+  display: block;
+  width: 105px;
+  height: 142px;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.media
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 500px;
+	padding-bottom: 50px;
 }
