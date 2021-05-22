@@ -32,7 +32,7 @@
 	
 		<article>
 		
-			<form action="order.php" method="post">
+			<form action="order.php" method="post" enctype="multipart/form-data">
 			
 				<div class="row">
 				
@@ -130,6 +130,23 @@
 				<div class="row">
 					<label> Data dostawy <input type="date" name="dzien" min="2025-03-30" max="2025-04-05"></label>
 					<label> Preferowany czas dostawy <input type="time" name="czas"></label>
+				</div>
+
+				<div class="row">
+					<div><label for="komentarz"> Uwagi do zamówienia </label></div>
+					<textarea name="komentarz" id="komentarz" rows="4" cols="80"></textarea>
+				</div>
+
+				<div class="row">
+					<label> Prześlij zdjęcie poprzedniego samochodu </label><input type="file" name="obraz" accept="image/x-png,image/gif,image/jpeg">
+				</div>
+
+				<div class="row">
+					<label> Kolor lakieru <input type="color" name="kolor" value="#ff0000"></label>
+				</div>
+
+				<div class="row">
+					<label> Stopień realizacji zamówienia </label><progress max="100" value="5"></progress>
 				</div>
 
 				<div class="row">
